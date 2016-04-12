@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>formulario Misto</title>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+      
+
+  </head>
+  <body>   
+      <div class="container body">
+                
+        <form>
+            
+            <div class="col-sm-8 has-error has-feedback" >
+                <label class="control-label">Movie title</label>
+                <input class="form-control" type="text" > 
+                <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                <span class="help-block">The title is required</span>
+            </div>
+            
+            <div class="form-group col-sm-4 has-error has-feedback" >
+                <label class="control-label" >Genre:</label>
+                <input class="form-control" type="text" placeholder="Choose a genre">
+                <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                <span class="help-block">The genre is required</span>
+            </div>
+        
+            <div class="form-group col-sm-4 has-success has-feedback">
+                <label class="control-label">Director</label>
+                <input type="text" class="form-control">
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            
+            <div class="form-group col-sm-4 has-success has-feedback" >
+                <label class="control-label">Writer</label>
+                <input class="form-control" type="text" >
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            
+             <div class="form-group col-sm-4 has-success has-feedback" >
+                <label class="control-label">Producer</label>
+                <input class="form-control" type="text" >
+                <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+            </div>
+            
+            <div class="form-group col-sm-6 has-error  has-feedback" >
+                <label class="control-label">Website</label>
+                <input class="form-control" type="text" >
+                <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                <span class="help-block">The website address is not valid</span>
+            </div>
+            
+            <div class="form-group col-sm-6 has-error  has-feedback" >
+                <label class="control-label">Youtube trailer</label>
+                <input class="form-control" type="text" >
+                <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+                <span class="help-block">The trailer link is not valid</span>
+            </div>
+            
+            <div>
+                <input type="submit" class="btn btn-default" value="Validate">
+            </div>
+            
+          </form>
+      
+      </div>
+    
+    <script src="assets/js/jquery-2.2.2.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
