@@ -105,3 +105,14 @@
 {
     float: right;
 }
+
+.align-left
+{
+    float:left;
+}
+
+.style-italico
+{
+   font-style: italic;
+    color: lightgray;
+}
